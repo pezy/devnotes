@@ -4,9 +4,9 @@ from __future__ import unicode_literals
 
 AUTHOR = 'pezy'
 SITENAME = 'devnotes'
-SITEURL = ''
+SITEURL = 'http://devnotes.org'
 
-PATH = 'content'
+PATH = 'docs'
 STATIC_PATHS = ['notes', 'img', 'lab', 'res']
 ARTICLE_PATHS = ['notes']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
