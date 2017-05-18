@@ -1,0 +1,22 @@
+[
+    {
+        "category": "研发环境",
+        "list": {
+            "Visual Studio 2015": "http://msdn.itellyou.cn",
+            "Qt 5.8.0": "http://download.qt.io/official_releases/qt/5.8/5.8.0/qt-opensource-windows-x86-msvc2015_64-5.8.0.exe",
+            "Office": "http://msdn.itellyou.cn",
+            "svn": "https://tortoisesvn.net/downloads.html",
+            "visual svn": "https://www.visualsvn.com/visualsvn/download/",
+            "7zip": "http://www.7-zip.org/download.html",
+            "chrome": "https://www.google.com/chrome/"
+        }
+    },
+    {
+        "category": "行业软件",
+        "list": {
+            "json": "#",
+            "petrel": "#"
+            
+        }
+    }
+]
