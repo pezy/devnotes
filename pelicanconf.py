@@ -46,6 +46,7 @@ MENUITEMS = [
         ('diary', 'http://devnotes.org/diary'),
         ('reading', '../lab/reading.html'),
         ('list', '../lab/list.html'),
+        ('tools', '../lab/tools.html')
         ]),
     ('Social', [
         ('Email', 'mailto: pezy.dev@gmail.com'),
