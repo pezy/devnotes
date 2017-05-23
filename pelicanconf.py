@@ -31,7 +31,7 @@ DEFAULT_PAGINATION = 10
 
 #Template
 BS3_URL = '//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css'
-BS3_JS  = '//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js'
+BS3_JS = '//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js'
 BS3_THEME = '//cdn.bootcss.com/bootswatch/3.3.7/cosmo/bootstrap.min.css'
 
 MENUITEMS = [
@@ -59,8 +59,25 @@ FAVICON = u'/res/favicon.png'
 FAVICON_TYPE = u'png'
 
 AUTHORS = {
-    u'pezy': '/about.html',
+    u'pezy': 'http://resume.github.io/?pezy',
 }
 
 DISQUS_SITENAME = 'devnotes-org'
 GITHUB_URL = 'https://github.com/pezy/pezy.github.io'
+
+PLUGIN_PATHS = ['../pelican-plugins']
+PLUGINS = ["sitemap"]
+
+SITEMAP = {
+    'format': "xml",
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'daily',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
