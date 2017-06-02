@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'pezy'
 SITENAME = 'devnotes'
-SITEURL = 'http://devnotes.org'
+SITEURL = ''
 
 PATH = 'docs'
 STATIC_PATHS = ['notes', 'img', 'lab', 'res']
