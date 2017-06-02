@@ -43,6 +43,7 @@ MENUITEMS = [
         ]),
     ('Links', [
         ('old Blog', 'http://blog.devnotes.org'),
+        ('password', 'http://password.devnotes.org'),
         ('diary', 'http://devnotes.org/diary'),
         ('reading', '../lab/reading.html'),
         ('list', '../lab/list.html'),
