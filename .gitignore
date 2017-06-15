@@ -1,3 +1,9 @@
+# Gatsby
+public
+node_modules/
+*.log
+.gatsby-context.js
+
 # Mac
 .DS_Store
 
