@@ -2,7 +2,7 @@
 title: 我的 Github Pages 折腾史
 date: 2015-05-28
 tags: fontend
-path: /notes/my_github_pages_history/
+path: /my-github-pages-history/
 ---
 
 [Github Pages](https://pages.github.com/) 绝对是 Github 的一份大礼，我在 2012 年接触到它以后，便一直爱不释手、欲罢不能。最早我用 [Octopress](http://octopress.org/) 来搭建我的博客，当时我也同时在学 Linux，这种基于 Git，类似提交代码的方式写博客，相比传统的博客平台（如新浪博客、CSDN、博客园之类），的确带给了我完全不同的新奇感。直到我因为工作原因，将主战场重新迁移到Windows 上，才发现 Ruby 的环境在 Windows 上搭建起来有多么麻烦，甚至需要写一篇[文章](http://blog.csdn.net/hankai1024/article/details/12787505)来记录这些步骤，然而这还并不包括我遇到并费劲解决的各种报错场景。后来 `node.js` 开始流行，我跟风学了一阵子，于是开始关注基于 `node.js` 的博客框架，诸如 [`hexo`](https://hexo.io/)，[`ghost`](https://ghost.org/)。但很可惜，我并未尝试这俩个比较有名的框架，而是选择了一个比较小众的：[`nico`](http://lab.lepture.com/nico/)，当时选它的原因很简单，它拥有 `node.js` 系的普遍优点——不折腾。`npm` 下载、更新、安装都无比方便。最让我欣慰的是，对于当时还对英语有所恐惧的我来说，它是唯一一个提供了中文文档的框架，真是泪流满面呀。另外，`nico` 的默认主题我超级喜欢，直到现在，都影响着我对于前端页面的审美。

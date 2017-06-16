@@ -2,7 +2,7 @@
 title: Password Generator
 date: 2016-06-21
 tags: dev
-path: /notes/password_generator/
+path: /password-generator/
 ---
 
 都怪当初贪便宜，iPhone 选择的是最小容量，看着满屏幕的 app, 不知道该删掉哪一个。排在顶前面位置的，是 1Password，当初慕名下载，却用的并不多，关键还是觉得不保险——我这可是单机版，万一手机丢了，全部密码不都歇菜了？

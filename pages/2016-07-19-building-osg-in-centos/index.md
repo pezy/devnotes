@@ -2,10 +2,10 @@
 title: Building OSG(OpenSceneGraph) at CentOS7
 date: 2016-07-19
 tags: osg
-path: /notes/building_osg_in_centos/
+path: /building-osg-in-centos/
 ---
 
-### Prepare dependence environment
+Prepare dependence environment
 
 ```sh
 yum install libpng-devel
@@ -26,7 +26,7 @@ yum install librsvg2-devel
 yum install gtkglext-devel
 ```
 
-## Download the source and build
+Download the source and build
 
 ```sh
 git clone https://github.com/openscenegraph/OpenSceneGraph.git

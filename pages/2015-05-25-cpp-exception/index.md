@@ -2,7 +2,7 @@
 title: 关于 C++ 的异常
 date: 2015-05-25
 tags: cpp
-path: /notes/cpp_exception/
+path: /cpp-exception/
 ---
 
 大早起来看见知乎上关于 C++ 异常处理的[讨论](http://www.zhihu.com/question/22889420)。立刻让我想起前几天和 [@王月](https://github.com/Mooophy) 关于 `std::vector` 越界访问是否应该判断的讨论。

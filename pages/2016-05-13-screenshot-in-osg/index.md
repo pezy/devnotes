@@ -2,7 +2,7 @@
 title: OSG(OpenSceneGraph) 的场景截图功能
 date: 2016-05-13
 tags: osg
-path: /notes/screenshot_in_osg/
+path: /screenshot-in-osg/
 ---
 
 三维场景, 往往有截图保存的需求. 而 OSG 中也提供了 `ScreenCaptureHandler` 类来干这件事. 但美中不足的是, 该类构造函数虽然提供了 `CaptureOperation` 与 `numFrames` 两个参数, 但却没有接口来设置截图的方式. 只能接受预定的按键(`c`/`C`)截图.

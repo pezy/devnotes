@@ -2,14 +2,14 @@
 title: SVN 常用命令小记
 date: 2016-07-15
 tags: devops
-path: /notes/svn_usage/
+path: /svn-usage/
 ---
 
 最近经常需要在 Linux 下用 SVN 维护代码, 简单记录几个常用的命令:
 
 (commit, update, add 之类, 就不列出了)
 
-### 增加忽略文件
+## 增加忽略文件
 
 编辑一个 txt 作为忽略文件的记录, 然后执行 `propset` 对当前目录进行设置:
 
@@ -36,7 +36,7 @@ svn propedit svn:ignore .
 >
 > 在执行上述命令, 就会进入 vim 编辑 ignore 列表了.
 
-### 解决冲突
+## 解决冲突
 
 如果以你本地修改为准:
 

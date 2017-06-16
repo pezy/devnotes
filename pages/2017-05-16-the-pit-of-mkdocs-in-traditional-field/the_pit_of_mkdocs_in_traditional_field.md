@@ -2,7 +2,7 @@
 title: Mkdocs 在传统领域遇到的坑
 date: 2017-05-16
 tags: devops
-path: /notes/the_pit_of_mkdocs_in_traditional_field/
+path: /the-pit-of-mkdocs-in-traditional-field/
 ---
 
 如果在 Google 中输入 "project documentation markdown" 这几个关键字, 排在第一位的就是 MkDocs.

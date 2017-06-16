@@ -2,7 +2,7 @@
 title: 写在石头边上
 date: 2016-05-06
 tags: reading
-path: /notes/the_story_of_the_stone/
+path: /the-story-of-the-stone/
 ---
 
 ## 红楼梦开局写作手法与软件开发过程的关系

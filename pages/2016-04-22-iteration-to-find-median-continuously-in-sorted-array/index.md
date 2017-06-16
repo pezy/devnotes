@@ -2,7 +2,7 @@
 title: 有序数组连续计算中位数
 date: 2016-04-22
 tags: algorithm
-path: /notes/iteration_to_find_median_continuously_in_sorted_array/
+path: /iteration-to-find-median-continuously-in-sorted-array/
 ---
 
 有一个需求, 是绘制坐标轴刻度时遇到的. 因为坐标轴刻度随时需要保证疏密得当, 所以有时会采取以下策略:
@@ -14,7 +14,7 @@ path: /notes/iteration_to_find_median_continuously_in_sorted_array/
 
 这个问题可以抽象成, 给定一个有序序列(或直接指定一对 `min` 和 `max`), 要求输出每一次相邻数字的中位数.(如果相邻数字差距仅为 1, 则不必输出). 用一张图来表示即为(以 2-15 为例):
 
- ![tree](../img/tree.png)
+ ![tree](tree.png)
 
 每一次的输出正好构成一颗二叉树, 且是一个二叉堆.
 
