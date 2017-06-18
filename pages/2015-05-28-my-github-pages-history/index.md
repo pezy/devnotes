@@ -25,16 +25,16 @@ path: /my-github-pages-history/
 
 顺着这个思路下去，Github Pages 能干的事情就多了，如你可以做一个简单的 Web 应用：To-do List 之类，甚至以前必须要动态网页做的事情你都可以尝试。
 
-我是个前端菜鸟，也试了两个方面的应用：
+我是个前端菜鸟，也试了以下几个方面的应用：
 
-1. 基于豆瓣读书的[读书笔记](http://pezy.github.io/reading)页面。
-1. 一个类似 [豆列](http://www.douban.com/doulist/) 和 [轻单](https://qdan.me/) 的网络资源聚合器：[List](http://pezy.github.io/list)。（类似 Hacker News 和 浏览器书签）
-1. 一个基于日历的[每日笔记](http://pezy.github.io/diary/)。（这个是 fork 自 [@joyeecheung](https://github.com/joyeecheung) 的 [diary](https://github.com/joyeecheung/diary)）
+1. 基于豆瓣读书的[读书笔记](http://lab.devnotes.org/reading)页面。
+1. 一个类似 [豆列](http://www.douban.com/doulist/) 和 [轻单](https://qdan.me/) 的网络资源聚合器：[List](http://lab.devnotes.org/list)。（类似 Hacker News 和 浏览器书签）
+1. 一个基于日历的[每日笔记](http://diary.devnotes.org)。（这个是 fork 自 [@joyeecheung](https://github.com/joyeecheung) 的 [diary](https://github.com/joyeecheung/diary)
+1. 自己用的[密码管理工具](http://password.devnotes.org)，详见[Password Generator](../password-generator/)
+1. 基于豆瓣电影的[当前热映电影](http://lab.devnotes.org/movie), 按照平均分从上到下排序，以方便想去看电影时，有一个快速的参考。
 
 我还计划做一个社交网络聚合器，把你感兴趣的人的所有社交动态都集中到一个页面。他可以在知乎，在微博，甚至在人人，无论他在那个平台活跃，只要你关注了他，那么他的所有动态都会集中到这个页面上，与其他你关注的人，按时间顺序混搭。
 
 这个思路也有很多类似的产品，但我还没有发现特别满意的。
 
 我在这方面也就是瞎折腾，如果有专业人士可以指点一二，在下不胜感激。
-
->本文由 [pezy](https://github.com/pezy/) 创作，采用[知识共享署名 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by/3.0/cn/)进行许可。可自由转载、引用，但需署名作者且注明文章出处。(Writing by [Typora](https://www.typora.io/))

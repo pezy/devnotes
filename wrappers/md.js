@@ -5,6 +5,7 @@ import 'css/markdown-styles.css'
 import Helmet from 'react-helmet'
 import { rhythm } from 'utils/typography'
 import { config } from 'config'
+import Bio from 'components/Bio'
 
 export default class Markdown extends React.Component {
   static propTypes = {
@@ -17,15 +18,22 @@ export default class Markdown extends React.Component {
       <div className="markdown">
         <Helmet title={`${config.siteTitle} | ${post.title}`} />
         <h1>{post.title}</h1>
+        <p
+          style={{
+            color: '#ccc',
+            display: 'block',
+            marginBottom: rhythm(1),
+          }}
+        >
+          {moment(post.date).format('YYYY-MM-D')}
+        </p>
         <div dangerouslySetInnerHTML={{ __html: post.body }} />
-      <em
+      <hr
         style={{
-          display: 'block',
           marginBottom: rhythm(2),
         }}
-      >
-        Posted {moment(post.date).format('MMMM D, YYYY')}
-      </em>
+      />
+      <Bio />
       </div>
     )
   }

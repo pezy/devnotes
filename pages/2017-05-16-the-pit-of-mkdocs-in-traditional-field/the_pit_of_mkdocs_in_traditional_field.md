@@ -11,7 +11,7 @@ path: /the-pit-of-mkdocs-in-traditional-field/
 
 但在使用过程中, 还是不可避免的遇到了很多坑.
 
-# 离线文档
+## 离线文档
 
 也许 MkDocs 的初衷, 是部署在 github page 或 Amazon S3 的在线文档. 本质上就是一个托管文档的网站. 这样的好处是明显的, 只要打开浏览器, 连上互联网, 就可以随时看到. 如果是开源软件, 则更有利于开发者贡献或改进(类似 wiki).
 
@@ -28,7 +28,7 @@ MkDocs 默认是推荐第一种方案的, 以至于其访问路径, 都是指向
 use_directory_urls: false
 ```
 
-# MathJax
+## MathJax
 
 有了离线文档这个需求, 就给后续很多事情带来了麻烦. 譬如文档中涉及公示渲染, 会用到大名鼎鼎的 MathJax(Latex 语法). 如果是在线文档, 这很容易:
 
@@ -78,7 +78,7 @@ theme_dir: my_theme
 
 这样一来, 就可以直接对 HTML 模版进行修改了. 在 my_theme 目录中找到 base.html, 然后大概在 `<script src="{{ base_url }}/js/highlight.pack.js"></script>` 下面增加上述 JS 代码即可.
 
-# Markdown 的坑
+## Markdown 的坑
 
 责任得明确, 接下来遇到的这个问题, 与 Mkdocs 无关, 应该由 Markdown 来负责. 那就是指定图片大小的接口, 似乎在 Markdown 的语法中毫无体现. 王垠也在其[博客](http://www.yinwang.org/blog-cn/2013/04/14/markdown)中讨论过该事.
 
@@ -106,7 +106,7 @@ img.icon {
 
 反正我现在写 Markdown 都直接用 VSCode 了, 顺带一个 markdownlint 插件, 用来提示你不规范的写法. 就足够直观可控了.
 
-# 跳转的坑
+## 跳转的坑
 
 其实 Markdown 是提供跳转的, 我最早用到这个功能, 是在 Github 上, 写 README 或 wiki 的时候. 当时觉得很方便, 但在这次写文档时, 才觉得功能过于简陋了.
 

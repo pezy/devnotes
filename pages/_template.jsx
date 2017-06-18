@@ -17,8 +17,8 @@ export default class Template extends React.Component {
         <Helmet
           title={config.siteTitle}
           meta={[
-            { name: "description", content: "Sample" },
-            { name: "keywords", content: "sample, something" },
+            { name: "description", content: "pezy devnotes" },
+            { name: "keywords", content: "pezy, devnotes, blog" },
           ]}
         />
         <div
@@ -31,7 +31,7 @@ export default class Template extends React.Component {
             style={{
               margin: `0 auto`,
               maxWidth: 960,
-              padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+              padding: `${rhythm(0.3)} ${rhythm(3 / 4)}`,
             }}
           >
             <h1 style={{ margin: 0 }}>
@@ -42,7 +42,7 @@ export default class Template extends React.Component {
                   textDecoration: "none",
                 }}
               >
-                pezy's devnotes
+                {config.authorName}'s {config.siteTitle}
               </Link>
             </h1>
           </div>

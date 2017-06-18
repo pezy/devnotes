@@ -31,5 +31,3 @@ m_pOSGWidget->renderingTraversals();
 // Restore to a null callback.
 m_pOSGWidget->getCamera()->setFinalDrawCallback(0);
 ```
-
-Done.

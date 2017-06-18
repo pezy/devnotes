@@ -71,5 +71,3 @@ if (__n >= this->size())
 - [Exceptions and Error Handling](https://isocpp.org/wiki/faq/exceptions#how-exceptions)
 - [C++: do you (really) write exception safe code?](http://stackoverflow.com/questions/1853243/c-do-you-really-write-exception-safe-code)
 - [Lessons Learned from Specifying Exception-Safety for the C++ Standard Library](http://www.boost.org/community/exception_safety.html)
-
-> 本文由 [pezy](https://github.com/pezy/) 创作，采用[知识共享署名 3.0 中国大陆许可协议](http://creativecommons.org/licenses/by/3.0/cn/)进行许可。可自由转载、引用，但需署名作者且注明文章出处。

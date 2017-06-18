@@ -11,7 +11,7 @@ import include from 'underscore.string/include'
 export default class Index extends React.Component {
   render() {
     // sort pages.
-    const sortedPages = sortBy(this.props.route.pages, 'data.date');
+    const sortedPages = sortBy(this.props.route.pages, 'data.date').reverse();
     // Posts are those with md extension that are not 404 pages OR have a date (meaning they're a react component post).
     const visiblePages = sortedPages.filter(page => (
       get(page, 'file.ext') === 'md' && !include(page.path, '/404') || get(page, 'data.date')
@@ -21,8 +21,8 @@ export default class Index extends React.Component {
         <Helmet
           title={config.blogTitle}
           meta={[
-            {"name": "description", "content": "Sample blog"},
-            {"name": "keywords", "content": "blog, articles"},
+            {"name": "description", "content": "pezy devnotes"},
+            {"name": "keywords", "content": "pezy, blog, devnotes"},
           ]}
         />
         <ul>
@@ -30,7 +30,7 @@ export default class Index extends React.Component {
               <li
                 key={page.path}
                 style={{
-                    marginBottom: rhythm(1/4),
+                  marginBottom: rhythm(1/4),
                 }}
               >
                 <Link style={{boxShadow: 'none'}} to={prefixLink(page.path)}>
@@ -39,7 +39,6 @@ export default class Index extends React.Component {
               </li>
           ))}
         </ul>
-        <Link to={prefixLink('/page-2/')}>Go to page 2</Link>
       </div>
     )
   }
